@@ -1,2 +1,9 @@
-# -C-v1.0
 这个项目解决了新手对于香橙派的一脸茫然，可轻松入门，项目开源，基于cpp编写，Windows运行，香橙派环境：Ubuntu，可适用于大多数香橙派设备，部分功能也适用于其他Linux开发板
+我提供了编译好的exe文件，下载后可直接运行
+B站：爱探索的强同学_AITS
+项目模版无需下载，程序也可正常运行
+项目模版解析：
+digitalLed：控制香橙派板载LED灯
+pinMode：设置管脚模式
+digitalWrite：gpio输出
+digitalRead：（尚未在主程序中启用）gpio输出
