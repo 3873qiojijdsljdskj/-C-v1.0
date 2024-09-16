@@ -8,57 +8,57 @@ int arr[100];
 int x; 
 	string nemef;
  	system("cls");
-	cout<<"è¾“å…¥é¦™æ©™æ´¾IPåœ°å€";
+	cout<<"ÊäÈëÏã³ÈÅÉIPµØÖ·";
 	cin>>ip; 
 	while(true){
 		system("cls");
-		cout<<"é¦™æ©™æ´¾C++è„šæœ¬ç®€æ˜“ç¼–ç¨‹å™¨v1.0"<<endl<<endl;
-				cout<<"1.æ‰“å¼€ç»¿è‰²ledç¯"<<endl;
-				cout<<"2.æ‰“å¼€çº¢è‰²ledç¯"<<endl;
-				cout<<"3.å…³é—­ç»¿è‰²ledç¯"<<endl;
-				cout<<"4.å…³é—­çº¢è‰²ledç¯"<<endl;
-				cout<<"5.å»¶æ—¶1ç§’"<<endl;
-				cout<<"6.GPIO26è¾“å‡ºé«˜ç”µå¹³"<<endl;
-				cout<<"7.GPIO26è¾“å‡ºä½ç”µå¹³"<<endl;
-				cout<<"8.ä¿å­˜æ›´æ”¹å¹¶ä¸Šä¼ åˆ°é¦™æ©™æ´¾"<<endl;
-				cout<<"9.åˆ é™¤ä¸Šä¸€é¡¹"<<endl;
-				cout<<"10.ç»¿è‰²ledç¯é—ªçƒ"<<endl;
-				cout<<"11.çº¢è‰²ledç¯é—ªçƒ"<<endl<<endl;
+		cout<<"Ïã³ÈÅÉC++½Å±¾¼òÒ×±à³ÌÆ÷v1.0"<<endl<<endl;
+				cout<<"1.´ò¿ªÂÌÉ«ledµÆ"<<endl;
+				cout<<"2.´ò¿ªºìÉ«ledµÆ"<<endl;
+				cout<<"3.¹Ø±ÕÂÌÉ«ledµÆ"<<endl;
+				cout<<"4.¹Ø±ÕºìÉ«ledµÆ"<<endl;
+				cout<<"5.ÑÓÊ±1Ãë"<<endl;
+				cout<<"6.GPIO26Êä³ö¸ßµçÆ½"<<endl;
+				cout<<"7.GPIO26Êä³öµÍµçÆ½"<<endl;
+				cout<<"8.±£´æ¸ü¸Ä²¢ÉÏ´«µ½Ïã³ÈÅÉ"<<endl;
+				cout<<"9.É¾³ıÉÏÒ»Ïî"<<endl;
+				cout<<"10.ÂÌÉ«ledµÆÉÁË¸"<<endl;
+				cout<<"11.ºìÉ«ledµÆÉÁË¸"<<endl<<endl;
 				if(x>0){
-				cout<<"ä»¥ä¸‹ä¸ºä½ ç¼–å†™çš„ç¨‹åº"<<endl<<endl;
+				cout<<"ÒÔÏÂÎªÄã±àĞ´µÄ³ÌĞò"<<endl<<endl;
 			}
 		for(int i=1;x>=i;i++){
 			int hchc=arr[i];
 			cout<<i<<".";
 			if(hchc==1){
-				cout<<"æ‰“å¼€ç»¿è‰²ledç¯"<<endl;
+				cout<<"´ò¿ªÂÌÉ«ledµÆ"<<endl;
 			}
 			if(hchc==2){
-				cout<<"æ‰“å¼€çº¢è‰²ledç¯"<<endl;
+				cout<<"´ò¿ªºìÉ«ledµÆ"<<endl;
 			}
 			if(hchc==3){
-				cout<<"å…³é—­ç»¿è‰²ledç¯"<<endl;
+				cout<<"¹Ø±ÕÂÌÉ«ledµÆ"<<endl;
 			}
 			if(hchc==4){
-				cout<<"å…³é—­çº¢è‰²ledç¯"<<endl;
+				cout<<"¹Ø±ÕºìÉ«ledµÆ"<<endl;
 			}
 			if(hchc==5){
-				cout<<"å»¶æ—¶1ç§’"<<endl;
+				cout<<"ÑÓÊ±1Ãë"<<endl;
 			}
 			if(hchc==6){
-				cout<<"GPIO26è¾“å‡ºé«˜ç”µå¹³"<<endl;
+				cout<<"GPIO26Êä³ö¸ßµçÆ½"<<endl;
 			}
 			if(hchc==7){
-				cout<<"GPIO26è¾“å‡ºä½ç”µå¹³"<<endl;
+				cout<<"GPIO26Êä³öµÍµçÆ½"<<endl;
 			}
 			if(hchc==10){
-				cout<<"ç»¿è‰²ledç¯é—ªçƒ"<<endl;
+				cout<<"ÂÌÉ«ledµÆÉÁË¸"<<endl;
 			}
 			if(hchc==11){
-				cout<<"çº¢è‰²ledç¯é—ªçƒ"<<endl;
+				cout<<"ºìÉ«ledµÆÉÁË¸"<<endl;
 			}
 		}
-		cout<<endl<<"ä¸‹ä¸€æ¬¡è¦æ‰§è¡Œçš„ä»£ç :"; 
+		cout<<endl<<"ÏÂÒ»´ÎÒªÖ´ĞĞµÄ´úÂë:"; 
 		int hc;
 		cin>>hc;
 		if((hc<=7&&hc>=0)||hc==10||hc==11){
@@ -71,7 +71,7 @@ int x;
 		}
 		else if(hc==8){
 			system("cls");
-			cout<<"æ–‡ä»¶å:";
+			cout<<"ÎÄ¼şÃû:";
 			cin>>nemef;
 		    std::ofstream fileStream(nemef.c_str());
         fileStream << "#include <fstream>\n";
@@ -203,20 +203,20 @@ for(int i=1;x>=i;i++){
 			if(hchc==7){
 				fileStream << "digitalWrite(74,LOW);\n";
 			}
-			if(hchc==9){
+			if(hchc==10){
 				fileStream << "digitalLed(GREENLED,HEARTBAET);\n";
 			}
-			if(hchc==10){
+			if(hchc==11){
 				fileStream << "digitalLed(REDLED,HEARTBAET);\n";
 			}
 		}	
 		fileStream << "}";
         fileStream.close(); 
         system("cls");
-        std::cerr << "æ–‡ä»¶ä¿å­˜å®Œæˆï¼Œæ­£åœ¨ä¸Šä¼ " << std::endl;
+        std::cerr << "ÎÄ¼ş±£´æÍê³É£¬ÕıÔÚÉÏ´«" << std::endl;
         std::string command = "scp " + nemef + " root@" + ip + ":/root";
         system(command.c_str());
-        system("echo ç¼–è¯‘è¿è¡Œä¸­");
+        system("echo ±àÒëÔËĞĞÖĞ");
         std::string sshCommand = "ssh root@" + ip + " \"";
         sshCommand += "sed -i 's/\\r$//' " + nemef + ";";
         sshCommand += " g++ " + nemef + " -o test;";
@@ -224,8 +224,7 @@ for(int i=1;x>=i;i++){
         sshCommand += " ./test;";
         sshCommand += "\"";
         system(sshCommand.c_str());
-        system("echo è¿è¡Œå®Œæ¯•,æŒ‰ä¸‹ä»»æ„é”®é€€å‡º");
-        system("pause");
+        system("echo ÔËĞĞÍê±Ï,°´ÏÂÈÎÒâ¼üÍË³ö");
         return 0;
 		}
 	}
